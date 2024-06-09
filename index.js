@@ -22,7 +22,7 @@ let projectsCollection; // Declare projectsCollection here
 
 async function run() {
   try {
-    await client.connect();
+     client.connect();
     console.log("Connected to MongoDB");
 
     const projectDb = client.db("projectDb");
